@@ -1,0 +1,71 @@
+body {
+  background-image: url('WhatsApp Image 2023-12-23 at 13.00.42_da52fe40.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  border-style: double;
+  border-color: #333; /* Dark border color */
+  border-width: 5px;
+  color: #fff; /* White text color */
+  font-size: 3em; /* Larger font size */
+  background: #333; /* Dark background color */
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  font-size: 1.5em; /* Larger font size */
+  padding: 1.5em;
+  border-radius: 1.5em;
+  background: #007BFF; /* Blue background color */
+  color: #fff; /* White text color */
+  margin-left: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  transition: background 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
+
+.blog-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  border-radius: 10px;
+  color: #333;
+  text-align: justify;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+h2 {
+  color: #007BFF; /* Blue heading color */
+}
+.custom-image {
+  width: 35%;
+  height: 50%;
+}
+
+.position-image {
+  position: relative; /* or absolute/fixed, depending on your layout */
+  top: 50px; /* Adjust the top position */
+  left: 30px; /* Adjust the left position */
+}
+
+.buttonmain:hover{
+  width: 400px;
+  height: auto;
+}
+
+
